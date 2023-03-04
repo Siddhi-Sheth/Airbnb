@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    /* background-color: aqua; */
+    padding: 20px 36px;
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+}
+
+.nav--logo{
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 50%;
+    align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text{
+    margin-top: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    /* position: relative; */
+}
